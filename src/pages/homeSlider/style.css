@@ -1,0 +1,80 @@
+.images{
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+    position: relative;
+}
+.images img{
+    width: 100%;
+    height: 100%;
+}
+.title-content{
+    position: absolute;
+    top: 25%;
+    left: 8rem;
+}
+.title-content h3:nth-child(1){
+    font-size: 16px;
+    margin: 0px;
+}
+.title-content h3:nth-child(2) {
+    font-size: 50px;
+    margin: 0px;
+    font-weight: 700;
+}
+.title-content p{
+    font-size: 14px;
+    margin: 0px;
+    width: 40%;
+}
+.title-content .btn{
+    background: #333;
+    padding: 10px 15px;
+    font-size: 13px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.wrapper{
+    position: relative;
+}
+.button-next-slide{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2rem;
+    width: 35px;
+    height: 35px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+.button-next-slide:hover {
+    opacity: 1;
+}
+.button-prev-slide{
+    position: absolute;
+    z-index: 10;
+    left: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 35px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+.button-prev-slide:hover{
+    opacity: 1;
+}
